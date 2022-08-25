@@ -26,6 +26,7 @@
 #ifndef CommonC_FileSystem_Private_h
 #define CommonC_FileSystem_Private_h
 
+extern const char *FSVirtualVolume;
 #include "FileSystem.h"
 #include "Array.h"
 #include "CCString.h"
