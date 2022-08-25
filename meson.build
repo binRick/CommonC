@@ -69,12 +69,12 @@ src = [
 deps = []
 
 if host_machine.system() == 'darwin'
-    add_languages('objc')
+    #add_languages('objc')
     src += [
         'CommonC/CFAllocator.c',
-        'CommonC/SystemPath.m',
+        #     'CommonC/SystemPath.m',
     ]
-    deps += [dependency('Foundation')]
+    #deps += [dependency('Foundation')]
 endif
 
 lib = library('CommonC', src,
